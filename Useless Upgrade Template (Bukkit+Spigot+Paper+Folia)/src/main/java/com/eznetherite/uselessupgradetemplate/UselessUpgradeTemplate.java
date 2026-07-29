@@ -81,21 +81,21 @@ public class UselessUpgradeTemplate extends JavaPlugin {
             new RecipeChoice.MaterialChoice(Material.NETHERITE_INGOT)));
     getServer().addRecipe(
         new SmithingTransformRecipe(
-            new NamespacedKey(this, "helmet_changes"),
+            new NamespacedKey(this, "nautilus_armor_changes"),
             new ItemStack(Material.NETHERITE_NAUTILUS_ARMOR),
             new RecipeChoice.MaterialChoice(Material.GOLD_INGOT),
             new RecipeChoice.MaterialChoice(Material.DIAMOND_NAUTILUS_ARMOR),
             new RecipeChoice.MaterialChoice(Material.NETHERITE_INGOT)));
     getServer().addRecipe(
         new SmithingTransformRecipe(
-            new NamespacedKey(this, "helmet_changes"),
+            new NamespacedKey(this, "horse_armor_changes"),
             new ItemStack(Material.NETHERITE_HORSE_ARMOR),
             new RecipeChoice.MaterialChoice(Material.GOLD_INGOT),
             new RecipeChoice.MaterialChoice(Material.DIAMOND_HORSE_ARMOR),
             new RecipeChoice.MaterialChoice(Material.NETHERITE_INGOT)));
     getServer().addRecipe(
         new SmithingTransformRecipe(
-            new NamespacedKey(this, "helmet_changes"),
+            new NamespacedKey(this, "spear_changes"),
             new ItemStack(Material.NETHERITE_SPEAR),
             new RecipeChoice.MaterialChoice(Material.GOLD_INGOT),
             new RecipeChoice.MaterialChoice(Material.DIAMOND_SPEAR),
